@@ -17,6 +17,8 @@
 		E38B83E32AED04AA00DA0FA9 /* IosApplicationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38B83E22AED04AA00DA0FA9 /* IosApplicationTests.swift */; };
 		E38B83ED2AED04AA00DA0FA9 /* IosApplicationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38B83EC2AED04AA00DA0FA9 /* IosApplicationUITests.swift */; };
 		E38B83EF2AED04AA00DA0FA9 /* IosApplicationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38B83EE2AED04AA00DA0FA9 /* IosApplicationUITestsLaunchTests.swift */; };
+		E38B83FE2AF274E700DA0FA9 /* SettingContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38B83FD2AF274E700DA0FA9 /* SettingContainer.swift */; };
+		E38B84002AF2752800DA0FA9 /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38B83FF2AF2752800DA0FA9 /* SettingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 		E38B83E82AED04AA00DA0FA9 /* IosApplicationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IosApplicationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E38B83EC2AED04AA00DA0FA9 /* IosApplicationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IosApplicationUITests.swift; sourceTree = "<group>"; };
 		E38B83EE2AED04AA00DA0FA9 /* IosApplicationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IosApplicationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E38B83FD2AF274E700DA0FA9 /* SettingContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingContainer.swift; sourceTree = "<group>"; };
+		E38B83FF2AF2752800DA0FA9 /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +139,8 @@
 		E38B83CA2AED04A500DA0FA9 /* IosApplication */ = {
 			isa = PBXGroup;
 			children = (
+				E38B83FC2AF274BB00DA0FA9 /* container */,
+				E38B83FB2AF274B400DA0FA9 /* view */,
 				E38B83CB2AED04A500DA0FA9 /* AppDelegate.swift */,
 				E38B83CF2AED04A500DA0FA9 /* ViewController.swift */,
 				E38B83D42AED04AA00DA0FA9 /* Assets.xcassets */,
@@ -159,6 +165,22 @@
 				E38B83EE2AED04AA00DA0FA9 /* IosApplicationUITestsLaunchTests.swift */,
 			);
 			path = IosApplicationUITests;
+			sourceTree = "<group>";
+		};
+		E38B83FB2AF274B400DA0FA9 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				E38B83FF2AF2752800DA0FA9 /* SettingView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		E38B83FC2AF274BB00DA0FA9 /* container */ = {
+			isa = PBXGroup;
+			children = (
+				E38B83FD2AF274E700DA0FA9 /* SettingContainer.swift */,
+			);
+			path = container;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -399,6 +421,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E38B83FE2AF274E700DA0FA9 /* SettingContainer.swift in Sources */,
+				E38B84002AF2752800DA0FA9 /* SettingView.swift in Sources */,
 				E38B83D02AED04A500DA0FA9 /* ViewController.swift in Sources */,
 				E38B83CC2AED04A500DA0FA9 /* AppDelegate.swift in Sources */,
 			);

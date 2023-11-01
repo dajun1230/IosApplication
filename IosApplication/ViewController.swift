@@ -110,6 +110,9 @@ class ViewController: UIViewController {
     //_ 可写可不写，区别在于调用方法时需要指定字段名称与否，无_时需要指定字段名称
     @objc func phoneLoginClick(_ sender:UIButton) {
         print("ViewController phoneLoginClick \(String(describing: sender.titleLabel?.text))")
+        
+        let r = SettingContainer()
+        navigationController?.pushViewController(r, animated: true)
     }
     
     lazy var phoneLoginButton: UIButton = {
